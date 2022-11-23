@@ -3,3 +3,39 @@ body {
     
     user-select: none;
 }
+
+#h1_img {
+    width: 3%;
+    margin-left: 5px;
+}
+
+#pimpButton {
+    background-color: orange;
+    color: brown;
+    border: 10px groove brown;
+    border-radius: 100px 10px;
+    cursor:pointer;
+}
+
+#pimpButton:hover {
+    border: 10px groove rgb(255, 0, 0);
+    color: #f00;
+    border-radius: 100px 10px;
+
+}
+
+#updateBtn {
+    width: 15vh;
+    background-color: rgb(52, 161, 38);
+    color: rgb(67, 201, 49);
+    border: 5px groove rgb(187, 40, 40);
+    border-radius: 100px;
+    cursor:pointer;
+}
+
+button {
+    color: slategrey;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
