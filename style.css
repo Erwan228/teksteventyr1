@@ -1,6 +1,5 @@
 body {
     background-color: #999;
-    
     user-select: none;
 }
 
@@ -13,29 +12,68 @@ body {
     background-color: orange;
     color: brown;
     border: 10px groove brown;
-    border-radius: 100px 10px;
+    border-radius: 30px 10px;
     cursor:pointer;
 }
 
 #pimpButton:hover {
     border: 10px groove rgb(255, 0, 0);
     color: #f00;
-    border-radius: 100px 10px;
+    border-radius: 30px;
 
 }
 
 #updateBtn {
     width: 15vh;
+    font-weight: bold;
     background-color: rgb(52, 161, 38);
-    color: rgb(67, 201, 49);
+    color: rgb(0, 0, 0);
     border: 5px groove rgb(187, 40, 40);
     border-radius: 100px;
     cursor:pointer;
 }
+#updateBtn:hover {
+    background-color: rgb(58, 214, 37);
+}
 
-button {
-    color: slategrey;
-    cursor: pointer;
-    background: none;
+a {
+    color: #ffc0cb;
+    padding: 5px 20px 7px;
+    border: 5px;
+    border-style: groove;
+    border-color: #96E637 #f684bd;
+    border-radius: 50px;
+    
+}
+
+
+/* SHOP STYLING */
+
+.shop_main {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border: 7px solid rgb(216, 211, 211);
+    border-radius: 5px;
+    padding: 15px;
+    width: 100px;
+    height: 100%;
+}
+
+#body_shop {
+    display: flex;
+    justify-content: center;
+}
+
+#shop_btn {
+    margin: 2px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
     border: none;
+    font-weight: bold;
+}
+
+#shop_btn:hover {
+    background-color: rgb(77, 173, 68);
 }
