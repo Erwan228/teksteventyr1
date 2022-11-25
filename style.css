@@ -3,6 +3,10 @@ body {
     user-select: none;
 }
 
+#grandmaDead {
+    height: 400px
+}
+
 #h1_img {
     width: 3%;
     margin-left: 5px;
