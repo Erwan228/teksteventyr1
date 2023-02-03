@@ -10,7 +10,7 @@ let pages = [
     {description: '', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
     {description: '', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
     {description: '', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
-    {description: '', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
+    {description: 'Du merker at du snart må fylle på bensin.', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
     {description: '', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
     {description: '', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
     {description: '', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
@@ -61,7 +61,7 @@ let pages = [
      document.getElementById('app').innerHTML = /*HTML*/ `
      <p>${page.choice1Chosen}</p>
      <button onclick="updateView()">Kjør videre</button>
-     <a href="https://erwan228.github.io/teksteventyr1/shop.html" target="_blank" rel="noopener noreferrer">Pimp my ride</a>
+     <a href="/shop.html" target="_blank" rel="noopener noreferrer">Pimp my ride</a>
      `
      if(choice1ChosenGainCoin){
          wallet += 100;
@@ -73,7 +73,7 @@ let pages = [
      document.getElementById('app').innerHTML = /*HTML*/ `
      <p>${page.choice2Chosen}</p>
      <button onclick="updateView()">Kjør videre</button>
-     <a href="https://erwan228.github.io/teksteventyr1/shop.html" target="_blank" rel="noopener noreferrer">Pimp my ride</a>
+     <a href="/shop.html" target="_blank" rel="noopener noreferrer">Pimp my ride</a>
      <br><br><br>
      <p>${page.choice2ChosenCont}</p>
  
