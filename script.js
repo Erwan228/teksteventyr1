@@ -10,7 +10,7 @@ let pages = [
     {description: '', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
     {description: '', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
     {description: '', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
-    {description: 'Du merker at du snart må fylle på bensin.', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
+    {description: 'Du merker at du snart må fylle på bensin. Du ser en bensinstasjon komme opp snart. <br/> Mistenksomt hvor beleilig det var. Du kjører inn dit.', choice1: 'Betal for bensin (-999999G)', choice1Chosen: 'Hvorfor betaler du for bensin? Har du ikke sett prisen? Etter én dråpe må du allerede selge bilen for å komme ut av gjelden det skaper.', choice2: '<img src="/images/FIGHT.png">', choice2Chosen: 'Du går opp til den andre personen på bensinstasjonen og stikker kniven din inn i brystet på dem. Personen dør umiddelbart. (+ 10EXP) <br/> Du selger offerets bil på FINN.NO og har nå nok til to dråper bensin og en saftig pølse. Du kjører videre.'},
     {description: '', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
     {description: '', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
     {description: '', choice1: '', choice1Chosen: '', choice2: '', choice2Chosen: ''},
